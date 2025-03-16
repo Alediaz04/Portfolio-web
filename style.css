@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/fondo.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    width: 100%;
+    
+}
+
+header{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #222121, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #222121, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 20px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.img-logo{
+    margin-left: 20px;
+}
+.nav{
+    margin-top: 30px;
+    margin-left: 115px;
+  
+ }
+ .nav a {
+    display: inline-block;
+    padding-right: 60px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+}
+
+.nav a:hover {
+    color: #ba8b02;
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 10px rgb(214, 194, 13)) contrast(1.8); 
+}
+
+/* HEADER COMPLETADO */
