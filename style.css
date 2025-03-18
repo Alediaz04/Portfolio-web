@@ -1,3 +1,7 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 @keyframes hero-gradient-animation {
     0% {
@@ -217,7 +221,7 @@ header{
  }
  .nav a {
     display: inline-block;
-    padding-right: 60px;
+    margin-right: 60px;
     font-size: 20px;
     color: #fff;
     text-decoration: none;
@@ -225,6 +229,7 @@ header{
 }
 
 .nav a:hover {
+    border-bottom: 1px solid #ba8b02;
     color: #ba8b02;
     transform: scale(1.2);
     filter: drop-shadow(1px 1px 10px rgb(214, 194, 13)) contrast(1.8); 
@@ -684,7 +689,7 @@ header{
     initial-value: hsla(217.59493670886076, 100%, 30%, 1)
 }
 
-.main {
+.fondo-home {
     --y-0: 63%;
     --c-0: hsla(217.59493670886076, 100%, 30%, 1);
     --x-0: 93%;
@@ -727,35 +732,41 @@ header{
 
 
 main{
-    /* background-image: url('img/fondo.jpeg');
-    background-repeat: no-repeat;  
-    background-size: cover;
-    background-position: center;
-      */
+    
     height: 100vh;  
     width: 100vw;   
-    margin-top: 0px;      
-    padding: 0;
-    overflow: hidden; 
+    
     z-index: 2;
     color: #fff;
 }
 
 .inicio{
-    margin-top: 300px;
+    height: 100vh;  
+    width: 100vw;   
+    margin-top: 0px;      
+    padding: 0;
+
     display: flex;
     justify-content: center ;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
+   
 }
 .title{
+    
+    text-align: center;
+
     font-size: 40px;
     color: #ffff;
 }
 .name{
     font-size: 100px;
+    font-weight: bold;
+
     color: #FFF2AF;
     filter: drop-shadow(1px 1px 25px #000000) contrast(1.5);
+
+    
 }
 .text{
     font-size: 60px;
@@ -763,3 +774,34 @@ main{
     filter: drop-shadow(1px 1px 20px red) contrast(1.5);
 }
 
+.download{
+    
+    width: 300px;
+    height: 60px;
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.download a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  
+}
+.download:hover{
+    background-color: #222121;
+}
+
+
+
+.about{
+    display: none;
+}
