@@ -749,7 +749,7 @@ main{
     margin-top: 0px;      
     padding: 0;
 
-    display: none;
+    display: flex;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
@@ -788,6 +788,10 @@ main{
     color: white;
     background-color: red;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.download:hover{
+    background-color: #222121;
 }
 
 .download a{
@@ -796,12 +800,10 @@ main{
     color: #fff;
     font-size: 25px;
     font-weight: bold;
-    transition: 0.3s ease;
+    
   
 }
-.download:hover{
-    background-color: #222121;
-}
+
 
 /* COMIENZO ABOUT */
 
@@ -812,7 +814,7 @@ main{
 }
 
 .about{
-    display: flex;
+    display: none;
 
     height: 100vh;  
     width: 100vw;   
