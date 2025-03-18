@@ -1,3 +1,6 @@
+html, body {
+    overflow: hidden;
+}
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -746,7 +749,7 @@ main{
     margin-top: 0px;      
     padding: 0;
 
-    display: flex;
+    display: none;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
@@ -800,8 +803,90 @@ main{
     background-color: #222121;
 }
 
+/* COMIENZO ABOUT */
 
+.about-fondo {
+    background-color: hsla(224, 70%, 17%, 1);
+    background-image: radial-gradient(circle at 91% 91%, hsla(276, 72%, 4%, 0.46) 10%, transparent 57%), radial-gradient(circle at 90% 84%, hsla(197, 57%, 0%, 1) 17%, transparent 81%), radial-gradient(circle at 63% 76%, hsla(274, 90%, 2%, 1) 4%, transparent 63%), radial-gradient(circle at 64% 25%, hsla(271, 68%, 19%, 1) 10%, transparent 66%), radial-gradient(circle at 82% 4%, hsla(269, 82%, 4%, 1) 12%, transparent 73%), radial-gradient(circle at 75% 55%, hsla(222, 85%, 21%, 1) 13%, transparent 84%), radial-gradient(circle at 50% 4%, hsla(218, 79%, 9%, 1) 17%, transparent 60%), radial-gradient(circle at 13% 9%, hsla(276, 74%, 4%, 1) 10%, transparent 57%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
+}
 
 .about{
+    display: flex;
+
+    height: 100vh;  
+    width: 100vw;   
+    margin-top: 0px;      
+    padding-top: 100px;
+    padding-left: 0px;
+    
+    flex-direction: column;
+    color: #fff;
+}
+
+.container-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px
+}
+
+.about-h1{
+    font-family: "";
+    font-size: 60px;
+    color: #fff;
+    filter: drop-shadow(1px 1px 4px #ffcc00 ) contrast(1.5);
+}
+.texto-about{
+    width: 600px;
+}
+.about-p{
+  font-size: 17px;   
+}
+.point{ 
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.perfil-img{
+    margin-top: 70px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+
+.skills-content{
+    text-align: center;
+}
+.skills-title h1{
+    font-size: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+.projects-fondo {
+    background-color: hsla(204.8780487804878, 77%, 10%, 1);
+    background-image: radial-gradient(circle at 87% 90%, hsla(0, 0%, 3%, 1) 0%, transparent 68.4918641207511%), radial-gradient(circle at 39% 88%, hsla(0, 0%, 3%, 1) 5.847953216374269%, transparent 78.61653873376679%), radial-gradient(circle at 92% 65%, hsla(0, 0%, 3%, 1) 5.847953216374269%, transparent 78.61653873376679%);
+    background-blend-mode: normal, normal, normal;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projects{
+    display: none;
+}
+
+.contacts{
     display: none;
 }
