@@ -743,13 +743,13 @@ main{
     color: #fff;
 }
 
-.inicio{
+.home{
     height: 100vh;  
     width: 100vw;   
     margin-top: 80px;      
     padding: 0;
 
-    display: flex;
+    display: none;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
@@ -899,6 +899,7 @@ main{
 .skills img{
     filter: drop-shadow(1px 1px 3px #fff);
 }
+/* ABOUT TERMINADO */
 
 
 
@@ -918,6 +919,17 @@ main{
     display: none;
 }
 
-.contacts{
+/* Projects TERMINADO */
+
+.contact{
     display: none;
+}
+
+
+.contact-fondo {
+    background-color: hsla(224, 70%, 17%, 1);
+    background-image: radial-gradient(circle at 91% 91%, hsla(276, 72%, 4%, 0.46) 10%, transparent 57%), radial-gradient(circle at 90% 84%, hsla(197, 57%, 0%, 1) 17%, transparent 67.19658345244282%), radial-gradient(circle at 63% 76%, hsla(274, 90%, 2%, 1) 4%, transparent 63%), radial-gradient(circle at 64% 25%, hsla(270.99999999999994, 74%, 37%, 1) 16.114576396558817%, transparent 72.06375500632093%), radial-gradient(circle at 82% 4%, hsla(269, 82%, 4%, 1) 12%, transparent 73%), radial-gradient(circle at 75% 55%, hsla(222, 85%, 21%, 1) 13%, transparent 110.3317158382466%), radial-gradient(circle at 50% 4%, hsla(218, 79%, 9%, 1) 17%, transparent 60%), radial-gradient(circle at 13% 9%, hsla(276, 74%, 4%, 1) 23.791868509886086%, transparent 55.99884612677582%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
+    width: 100vw;
+    height: 100vh;
 }
