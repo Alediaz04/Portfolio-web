@@ -921,15 +921,97 @@ main{
 
 /* Projects TERMINADO */
 
-.contact{
-    display: none;
-}
+
 
 
 .contact-fondo {
-    background-color: hsla(224, 70%, 17%, 1);
-    background-image: radial-gradient(circle at 91% 91%, hsla(276, 72%, 4%, 0.46) 10%, transparent 57%), radial-gradient(circle at 90% 84%, hsla(197, 57%, 0%, 1) 17%, transparent 67.19658345244282%), radial-gradient(circle at 63% 76%, hsla(274, 90%, 2%, 1) 4%, transparent 63%), radial-gradient(circle at 64% 25%, hsla(270.99999999999994, 74%, 37%, 1) 16.114576396558817%, transparent 72.06375500632093%), radial-gradient(circle at 82% 4%, hsla(269, 82%, 4%, 1) 12%, transparent 73%), radial-gradient(circle at 75% 55%, hsla(222, 85%, 21%, 1) 13%, transparent 110.3317158382466%), radial-gradient(circle at 50% 4%, hsla(218, 79%, 9%, 1) 17%, transparent 60%), radial-gradient(circle at 13% 9%, hsla(276, 74%, 4%, 1) 23.791868509886086%, transparent 55.99884612677582%);
+    background-color: rgb(7, 17, 46);
+    background-image: radial-gradient(circle at 91% 91%, hsla(276, 72%, 4%, 0.46) 10%, transparent 57%), radial-gradient(circle at 90% 84%, hsla(197, 57%, 0%, 1) 17%, transparent 67.19658345244282%), radial-gradient(circle at 63% 76%, hsla(274, 90%, 2%, 1) 4%, transparent 63%), radial-gradient(circle at 64% 25%, rgb(35, 16, 53) 16.114576396558817%, transparent 72.06375500632093%), radial-gradient(circle at 82% 4%, hsla(269, 82%, 4%, 1) 12%, transparent 73%), radial-gradient(circle at 75% 55%, hsla(222, 85%, 21%, 1) 13%, transparent 110.3317158382466%), radial-gradient(circle at 50% 4%, hsla(218, 79%, 9%, 1) 17%, transparent 60%), radial-gradient(circle at 13% 9%, hsla(276, 74%, 4%, 1) 23.791868509886086%, transparent 55.99884612677582%);
     background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
     width: 100vw;
     height: 100vh;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;      
+    padding-top: 100px;
+    padding-left: 0px;
+    
+    flex-direction: column;
+    color: #fff;
+}
+
+.formulario{
+
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 650px;
+    border: 1px re red;
+    margin-bottom: 100px;
+
+    background-color: rgb(15, 15, 15);
+    background-image: radial-gradient(circle at 25% 61%, rgb(111, 110, 167) 0%, transparent 55.31899567992806%), radial-gradient(circle at 42% 84%, hsla(298, 0%, 100%, 1) 0%, transparent 55.31899567992806%), radial-gradient(circle at 13% 58%, hsla(298, 71%, 21%, 0.34) 0%, transparent 45.77892876736944%), radial-gradient(circle at 53% 90%, hsla(0, 0%, 0%, 0.34) 0%, transparent 45.77892876736944%), radial-gradient(circle at 23% 79%, rgb(75, 100, 168) 0%, transparent 74%);
+    background-blend-mode: overlay, overlay, normal, normal, normal;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.formulario h1{
+    font-family: "";
+    font-size: 60px;
+    color: #fff;
+    filter: drop-shadow(1px 1px 4px #ffcc00 ) contrast(1.5);
+}
+
+.formulario label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.formulario input, textarea{
+    border: 2px solid rgb(87, 86, 86);
+    border-radius: 15px;
+    color: #ffff;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.mensaje{
+    height: 100px;
+    resize: none;
+}
+
+.btn-form{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+
+    font-family: "";
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 15px;
+
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.btn-form:hover{
+    background-color: #222121;
+    border-color: #222121;
+}
+.contacto{
+
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+
+    filter: drop-shadow(1px 1px 1px #fff);
 }
