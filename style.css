@@ -749,7 +749,7 @@ main{
     margin-top: 80px;      
     padding: 0;
 
-    display: none;
+    display: flex;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
@@ -932,7 +932,7 @@ main{
     height: 100vh;
 }
 .contact{
-    display: flex;
+    display: none;
     align-items: center;
     margin-top: 0px;      
     padding-top: 100px;
