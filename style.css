@@ -214,7 +214,7 @@ header{
     margin-right: 20px;
 }
 
-.img-logo{
+.img-header{
     margin-left: 20px;
 }
 .nav{
@@ -906,7 +906,13 @@ main{
 }
 /* ABOUT TERMINADO */
 
-
+.title-projects{
+    text-align: center;
+    font-family: "";
+    font-size: 80px;
+    color: #fff;
+    filter: drop-shadow(1px 1px 4px #ffcc00 ) contrast(1.5);
+}
 
 
 
@@ -919,11 +925,97 @@ main{
     width: 100vw;
     height: 100vh;
 }
+.projects {
+    height: 100vh;  
+    width: 100vw;   
+    margin-top: 80px;      
+    padding: 0;
 
-.projects{
     display: none;
+    flex-direction: column;
+    align-items: center;
 }
 
+.targets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.general-cards, .one-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    max-width: 800px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    
+    background-color: #1a1a1a;
+    margin-bottom: 30px;
+}
+
+.card img {
+    max-width: 350px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 10px; 
+}
+.card div {
+    flex: 1;
+}
+
+.one-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.links-projects{
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.links-projects a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    transition: 0.3s ease;
+}
+
+.links-projects a:hover{
+    color: blue;
+    transform: scale(1.2);
+}
 /* Projects TERMINADO */
 
 
